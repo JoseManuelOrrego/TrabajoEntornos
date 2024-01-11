@@ -38,10 +38,17 @@ public class Areas
         return 2 * 3.1415 * radio * (radio + altura);
     }
 	
+
+	 public static double calcularAreaCubo(double lado) 
+	    {
+	        return 6 * lado * lado;
+	    }
+
 	public static double calculoAreaRectangulo(double base, double altura)
 	{
 		return base*altura;
 	}
+
 	
 	public static double calculoVolumenCubo(double lado)
 	{
