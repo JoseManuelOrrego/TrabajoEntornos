@@ -43,4 +43,9 @@ public class Areas
 		return base*altura;
 	}
 	
+	public static double calculoVolumenCubo(double lado)
+	{
+		return lado*lado*lado;
+	}
+	
 }
